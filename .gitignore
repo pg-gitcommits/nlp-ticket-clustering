@@ -6,3 +6,8 @@ __pycache__/
 .DS_Store
 *.pyc
 models/
+data/umap_dbscan.npy
+data/umap_kmeans.npy
+data/clusters_viz.html
+data/embeddings.npy
+models/
