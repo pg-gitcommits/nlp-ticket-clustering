@@ -1,0 +1,32 @@
+{
+  "kmeans": {
+    "umap_n_neighbors": 30,
+    "umap_n_components": 75,
+    "umap_min_dist": 0.0,
+    "umap_metric": "cosine",
+    "k": 22,
+    "n_init": 10,
+    "silhouette": 0.889,
+    "davies_bouldin": 0.1512,
+    "ari": 0.5846,
+    "nmi": 0.8632,
+    "confidence": "medium",
+    "note": "optimal k determined via silhouette scan + kneedle in tune.py"
+  },
+  "dbscan": {
+    "umap_n_neighbors": 10,
+    "umap_n_components": 50,
+    "umap_min_dist": 0.0,
+    "umap_metric": "cosine",
+    "eps": 0.7,
+    "min_samples": 5,
+    "n_clusters": 69,
+    "silhouette": 0.8058,
+    "davies_bouldin": 0.243,
+    "ari": 0.5937,
+    "nmi": 0.8228,
+    "note": "optimal params determined via grid search in tune.py"
+  },
+  "dataset_size": 4935,
+  "embedding_model": "all-MiniLM-L6-v2"
+}
