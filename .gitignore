@@ -1,13 +1,9 @@
 venv/
 .env
 data/embeddings.npy
-data/*.csv
+data/umap_dbscan.npy
+data/umap_kmeans.npy
+models/
 __pycache__/
 .DS_Store
 *.pyc
-models/
-data/umap_dbscan.npy
-data/umap_kmeans.npy
-data/clusters_viz.html
-data/embeddings.npy
-models/
